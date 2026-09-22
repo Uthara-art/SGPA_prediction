@@ -62,4 +62,4 @@ def predict_sgpa_from_percentage(percentage):
     value_scaled = prod_scaler.transform(value)
     return float(production_model.predict(value_scaled)[0])
 
-print('Example prediction for 85%:', round(predict_sgpa_from_percentage(85), 3))
+
